@@ -1,4 +1,4 @@
-module seven_segment_logic(input wire[3:0] binary,
+module seven_segment_logic(input wire[3:0] x,
                             output wire A,
                             output wire B,
                             output wire C,

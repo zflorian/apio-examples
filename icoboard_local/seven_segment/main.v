@@ -16,10 +16,9 @@ module top(input wire[3:0] IN,
             output wire G,
             output wire DP);
 
-wire [7:0] out = {A, B, C, D, E, F, G, DP};
 
 seven_segment_case t1(
     .binary(IN),
-    .out(out));
+    .out({A, B, C, D, E, F, G, DP}));
 
 endmodule

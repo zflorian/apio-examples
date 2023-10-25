@@ -1,5 +1,5 @@
 module seven_segment_if(input wire[3:0] binary,
-                            output wire[7:0] out);
+                        output reg[7:0] out);
 
 // TODO: Code für die Umwandlung anpassen / erweitern
 always @(*) begin
