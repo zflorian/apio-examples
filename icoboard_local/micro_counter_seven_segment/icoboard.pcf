@@ -1,0 +1,30 @@
+# -----------------------------------------------------------------------------
+#- icoBOARD constraint file (.pcf)
+#- By Jesus Arroyo Torrens
+#- September - 2016
+#- GPL license
+# -----------------------------------------------------------------------------
+# --  Pinout: http://icoboard.org/icoboard-1-0.html
+set_io --warn-no-port CLK R9
+
+set_io --warn-no-port A A5
+set_io --warn-no-port B A2
+set_io --warn-no-port C C3
+set_io --warn-no-port D B4
+set_io --warn-no-port E B7
+set_io --warn-no-port F B6
+set_io --warn-no-port G B3
+set_io --warn-no-port DP B5
+
+
+# C0 <-> A5 - LED A
+# C1 <-> A2 - LED B
+# C2 <-> C3 - LED C
+# C3 <-> B4 - LED D
+# C4 <-> B7 - LED E
+# C5 <-> B6 - LED F
+# C6 <-> B3 - LED G
+# C7 <-> B5 - LED H
+
+
+
