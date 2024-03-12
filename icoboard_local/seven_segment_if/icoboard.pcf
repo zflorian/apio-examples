@@ -47,12 +47,12 @@ set_io --warn-no-port IN[3] A5
 #      ---------------------------------        ---------------------------
 #
 
-set_io --warn-no-port A B11
-set_io --warn-no-port B B10
-set_io --warn-no-port C B9
-set_io --warn-no-port D D8
-set_io --warn-no-port E A11
-set_io --warn-no-port F A10
-set_io --warn-no-port G A9
-set_io --warn-no-port DP B8
+set_io --warn-no-port A A5
+set_io --warn-no-port B A2
+set_io --warn-no-port C C3
+set_io --warn-no-port D B4
+set_io --warn-no-port E B7
+set_io --warn-no-port F B6
+set_io --warn-no-port G B3
+set_io --warn-no-port DP B5
 
