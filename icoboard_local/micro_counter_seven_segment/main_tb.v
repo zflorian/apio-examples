@@ -15,29 +15,18 @@ module main_tb();
   always #0.5 clk = ~clk;
 
   // Register für Eingaben, Wire für Ausgaben.
-  reg[3:0] in;
-  wire a;
-  wire b;
-  wire c;
-  wire d;
-  wire e;
-  wire f;
-  wire g;
-  wire dp;
+  reg rst = 1;
+  reg [31:0] prescaler = 10;
+  wire [3:0] count;
 
   // Top Modul instanz erstellen und
   // An Testsignale anbinden
-  top dut(
-    .CLK(clk),
-    .A(a),
-    .B(b),
-    .C(c),
-    .D(d),
-    .E(e),
-    .F(f),
-    .G(g),
-    .DP(dp)
-  );
+
+counter dut(.clk(clk),
+            .rst(rst), 
+            .cnt(count),
+            .prescaler(prescaler)
+          );
 
   initial begin
     // Zieldatei (VCD Datei), so benannt, dass apio sie findet

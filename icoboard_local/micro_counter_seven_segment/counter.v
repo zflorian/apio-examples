@@ -5,7 +5,11 @@
 //------------------------------------------------------------------
 `default_nettype none
 
-module counter(input wire clk, input wire rst, output wire [3:0] cnt);
+module counter(
+    input wire clk, 
+    input wire rst, 
+    output wire [3:0] cnt,
+    input wire [31:0] prescaler);
 
 
 always @(posedge clk) begin
