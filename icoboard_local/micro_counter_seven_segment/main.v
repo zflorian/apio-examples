@@ -37,7 +37,8 @@ wire [3:0] count_value;
 counter cnt(
     .clk(clk_100mhz),
     .rst(reset),
-    .cnt(count_value)
+    .cnt(count_value),
+    .prescaler(32'd10)
 );
 
 
