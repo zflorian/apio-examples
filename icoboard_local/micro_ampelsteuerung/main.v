@@ -7,8 +7,8 @@
 
 //-- Template for the top entity
 module top( input wire CLK,
-            output wire[2:0] ampel_1,
-            output wire[2:0] ampel_2,
+            output wire[2:0] ampel_1, // for color to bit mapping, have a look inside the pcf
+            output wire[2:0] ampel_2, // for color to bit mapping, have a look inside the pcf
             input wire kontakt_1,
             input wire kontakt_2);
 

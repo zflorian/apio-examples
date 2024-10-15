@@ -1,12 +1,12 @@
 set_io --warn-no-port CLK R9
 
-set_io --warn-no-port ampel_1[0] B4 #rot
-set_io --warn-no-port ampel_1[1] B7 #gelb
-set_io --warn-no-port ampel_1[2] B6 #grün
+set_io --warn-no-port ampel_1[0] B4 # green
+set_io --warn-no-port ampel_1[1] B7 # yellow
+set_io --warn-no-port ampel_1[2] B6 # red
 
-set_io --warn-no-port ampel_2[0] A5 #rot
-set_io --warn-no-port ampel_2[1] A2 #gelb
-set_io --warn-no-port ampel_2[2] C3 #grün
+set_io --warn-no-port ampel_2[0] A5 # green
+set_io --warn-no-port ampel_2[1] A2 # yellow
+set_io --warn-no-port ampel_2[2] C3 # red
 
 set_io --warn-no-port kontakt_1 B5
 set_io --warn-no-port kontakt_2 B3
